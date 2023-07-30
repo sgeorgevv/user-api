@@ -1,6 +1,6 @@
-# RESTful API with Flask, Flask-RESTful, and MongoEngine
+# RESTful API with Flask, Flask-RESTful, and MySQL
 
-This is a simple RESTful API developed with Flask and Flask-RESTful, using MongoDB as the database via MongoEngine. It's a basic user management system where you can register new users, login with registered users, and get or update the user's data. All user passwords are securely hashed before being stored.
+This is a simple RESTful API developed with Flask and Flask-RESTful, using MongoDB as the database via MYSQLAlchemy. It's a basic user management system where you can register new users, login with registered users, and get or update the user's data. All user passwords are securely hashed before being stored.
 
 ## Features
 
@@ -14,7 +14,7 @@ This is a simple RESTful API developed with Flask and Flask-RESTful, using Mongo
 
 1. Clone the repository.
 2. Install the required dependencies found in the `requirements.txt` file using `pip install -r requirements.txt`.
-3. Ensure you have a running MongoDB instance and replace the `MONGO_DB`, `MONGO_USER`, `MONGO_PASS`, `DB_SERVER`, and `DB_PORT` values in the `env_vars.env` file.
+3. Ensure you have a running MYSQL instance and fill in the `env_vars.env` file.
 4. Run the application with `python run.py`.
 
 ## Endpoints

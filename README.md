@@ -1,6 +1,8 @@
 # RESTful API with Flask, Flask-RESTful, and MySQL
 
-This is a simple RESTful API developed with Flask and Flask-RESTful, using MongoDB as the database via MYSQLAlchemy. It's a basic user management system where you can register new users, login with registered users, and get or update the user's data. All user passwords are securely hashed before being stored. Make sure you have your SQL database set up and running on the correct port.
+This is a simple RESTful API developed with Flask and Flask-RESTful, using MySQL as the database via MYSQLAlchemy. It's a basic user management system where you can register new users, login with registered users, and get or update the user's data. All user passwords are securely hashed before being stored. Make sure you have your SQL database set up and running on the correct port.
+
+This project is for development purposes only.
 
 ## Features
 

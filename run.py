@@ -1,4 +1,4 @@
-from . import app, db
+from api import app, db
 
 """
 Deploy the API on a local server for development. 

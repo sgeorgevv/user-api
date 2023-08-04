@@ -31,7 +31,7 @@ register_payload = {
 response = requests.post(register_url, json=register_payload)
 print(f'Registration Response: {response.json()}')
 ```
-- `POST /login`: Login as an existing user. The request body should include `username` and `password`:
+- `POST /login`: Login as an existing user. The request body should include `username` and `password`. This returns a token to be used in further endpoints:
 ```python
 login_url = base_url + '/login'
 login_payload = {
